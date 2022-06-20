@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Righteous&family=Sarala&display=swap');
+:root {
+    --primary-color: rgb(37, 90, 204);
+    --primary-color-darker: rgb(30, 73, 167);
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    background: var(--primary-color);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 640px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+}
+form button:hover {
+    background: var(--primary-color-darker);
+}
+form button:active {
+    background: rgb(19, 5, 150);
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(33, 226, 200);
+    padding: 10px 20px;
+}
+.bad {
+    background: rgb(238, 76, 76);
+}
